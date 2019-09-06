@@ -80,8 +80,11 @@ p{
 }
 
 @media screen and (max-width: 374px){
+  .modal .modal-content p{
+    padding: 1%;
+  }
   .modal .modal-footer {
-    margin-top: -90%;
+    margin-top: -65%;
   }
   .adicional{
     margin-top: 0%;
@@ -94,6 +97,9 @@ p{
 @media screen and (max-width: 359px){
   .modal .modal-content p{
     padding: 2%;
+  }
+  .modal .modal-footer {
+    margin-top: -85%;
   }
   .titulo{
     text-align: center;
